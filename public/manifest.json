@@ -1,0 +1,50 @@
+{
+  "name": "Book App",
+  "short_name": "BookApp",
+  "description": "Track your reading progress and discover new books",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "categories": ["books", "education", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Home screen of BookTracker"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Reading",
+      "short_name": "Read",
+      "description": "Start a new reading session",
+      "url": "/timer",
+      "icons": [{ "src": "/icons/timer-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Add Book",
+      "short_name": "Add",
+      "description": "Add a new book to your library",
+      "url": "/add",
+      "icons": [{ "src": "/icons/add-96x96.png", "sizes": "96x96" }]
+    }
+  ]
+} 
